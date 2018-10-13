@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Geeks &amp; Places | Travel Blog</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/code.getmdl.io/1.3.0/material.blue_grey-red.min.css">
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ff5252">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="description" content="Geeks & Places: We're a couple of digital nomads traveling around the globe sharing our passion for tech & design.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Geeks & Places">
+<meta name="twitter:description" content="Geeks & Places: We're a couple of digital nomads traveling around the globe sharing our passion for tech & design.">
+<meta name="twitter:image" content="/img/about.jpg">
+
+<meta name="og:title" content="Geeks & Places" />
+<meta name="og:type" content="article" />
+<meta name="og:image" content="/img/about.jpg" />
+<meta name="og:description" content="Geeks & Places: We're a couple of digital nomads traveling around the globe sharing our passion for tech & design." />
+<meta name="og:site_name" content="Geeks & Places" />
+</head>
+    <body>
+          <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+             <div class="header-wrapper">
+  <div class="page-content">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <a href="/" id="logo-wrapper">
+            <div id="logo">
+                <svg width="28px" height="28px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+                    <defs>
+                        <path d="M76.5056943,0 C84.772406,0 91.5572468,2.42293196 96.8604203,7.26886858 C102.163594,12.1148052 104.815141,18.7583283 104.815141,27.1996373 C104.815141,35.7972668 101.617687,44.0039718 95.2226838,51.8199986 C88.9836561,59.4797049 81.1849885,66.3577053 71.826447,72.4542062 C68.0830304,74.9553348 58.0542594,82.5368304 52.4075704,82.5368304 C46.7608815,82.5368304 41.5673569,78.0817455 32.9886939,72.4542062 C23.6301524,66.3577053 15.8314848,59.4797049 9.59245709,51.8199986 C3.19745372,44.0039718 0,35.7972668 0,27.1996373 C0,18.7583283 2.65154699,12.1148052 7.95472051,7.26886858 C13.257894,2.42293196 20.0427349,0 28.3094465,0 C33.144693,0 37.7849002,1.09422734 42.2302074,3.28271484 C46.6755146,5.47120235 50.067935,8.51940708 52.4075704,12.4274205 C54.7472058,8.51940708 58.1396262,5.47120235 62.5849334,3.28271484 C67.0302406,1.09422734 71.6704479,0 76.5056943,0 Z" id="path-1"></path>
+                        <linearGradient x1="50%" y1="0%" x2="86.2519976%" y2="59.5100419%" id="linearGradient-3">
+                            <stop stop-color="#000000" offset="0%"></stop>
+                            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Artboard-Copy">
+                            <g id="Group" transform="translate(1.000000, 13.000000)">
+                                <g id="Rectangle">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FF5252" xlink:href="#path-1"></use>
+                                    <polygon fill="url(#linearGradient-3)" opacity="0.200464221" mask="url(#mask-2)" points="22.5383748 67.994751 64.787357 35.2037877 91.2193277 67.994751 42.1478873 100.785714"></polygon>
+                                </g>
+                                <path d="M61.2040792,32.6440181 C61.7427453,31.0238264 61.6419666,29.775008 60.900416,28.897031 C60.0247297,28.1542843 58.7784008,28.0533714 57.1614293,28.592519 C55.5446348,29.132642 54.0962177,30.0439611 52.8160894,31.3266535 L42.8161387,42.3358258 L28.1136872,35.7152909 C27.8441772,35.6307831 27.5915669,35.6982652 27.3559447,35.9176486 L24.1222672,39.1582981 C23.9372556,39.3441621 23.8612513,39.5719697 23.8950506,39.8419869 C23.9455727,40.1123587 24.0888218,40.3146278 24.3245324,40.4497694 L37.1574906,47.5133122 L30.8196432,54.2884974 C30.8196432,54.2884974 25.4399021,59.7103042 20.5105003,60.5814124 C14.3227183,61.6748975 5.20292696,51.5027041 5.20745922,51.5618015 C5.21484312,51.6214144 9.37132734,58.3549489 18.0042743,64.0030874 C26.6372213,69.651226 38.0618488,73.7957088 45.5064726,76.2308452 C45.5064726,76.2308452 38.0713509,72.9353039 36.018786,68.7633471 C34.2303964,65.1283416 34.6640091,62.8374098 36.5617016,59.8995247 C38.4593942,56.9616396 42.8161387,53.1839389 42.8161387,53.1839389 L49.8644532,66.0459786 C49.9653204,66.2654507 50.1421033,66.4004149 50.3948906,66.4511374 C50.4451472,66.4680744 50.5041634,66.4763212 50.5717621,66.4763212 C50.7734079,66.4763212 50.9336452,66.4255988 51.051412,66.3245086 L54.2855319,63.8941767 C54.5713222,63.6580336 54.6724549,63.3797696 54.5886643,63.05903 L48.381263,47.9521196 L58.4762417,36.999231 C59.7558391,35.7160066 60.6651477,34.2642098 61.2040792,32.6440181 Z" id="Shape-Copy" fill="#FFFFFF" transform="translate(33.375883, 52.241444) rotate(10.000000) translate(-33.375883, -52.241444) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div id="logo-text" class="mdl-color-text--grey-700">Geeks &amp; Places</div>
+        </a>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Menu -->
+        <div class="navbar-menu">
+          <a href="/" class="mdl-color-text--grey-600">Blog</a>
+          <a href="/about" class="mdl-color-text--grey-600">About</a>
+          <!-- <a href="#" class="mdl-color-text--grey-600">Destinations</a> -->
+          <a href="#" class="mdl-color-text--accent js-subscribe">Subscribe</a>
+      </div>
+  </div>
+</header>
+</div>
+</div>
+
+             <div class="home-wrapper">
+  <div class="cover-wrapper">
+    <div class="page-content">
+      <div class="mdl-grid">
+        <div class="mdl-grid home-introContainer">
+          <div class="home-intro">
+          <h1 class="mdl-color-text--grey-900">A couple of geeks traveling the world.  </h1>
+            <a href="" class="mdl-color-text--grey-600 js-subscribe">
+              <p>Click here to get our latest travel hacks in your inbox
+                <svg width="8px" height="14px" id="cover-subscribe-icon" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path d="M7.40469621,6.928563 C7.40469621,6.8303486 7.35558901,6.71985739 7.2819282,6.64619659 L1.56093924,0.925207628 C1.48727844,0.851546826 1.37678724,0.802439624 1.27857283,0.802439624 C1.18035843,0.802439624 1.06986723,0.851546826 0.996206426,0.925207628 L0.382366408,1.53904765 C0.308705606,1.61270845 0.259598405,1.72319965 0.259598405,1.82141405 C0.259598405,1.91962846 0.308705606,2.03011966 0.382366408,2.10378046 L5.20714895,6.928563 L0.382366408,11.7533455 C0.308705606,11.8270063 0.259598405,11.9374975 0.259598405,12.0357119 C0.259598405,12.1462031 0.308705606,12.2444176 0.382366408,12.3180784 L0.996206426,12.9319184 C1.06986723,13.0055792 1.18035843,13.0546864 1.27857283,13.0546864 C1.37678724,13.0546864 1.48727844,13.0055792 1.56093924,12.9319184 L7.2819282,7.21092941 C7.35558901,7.1372686 7.40469621,7.0267774 7.40469621,6.928563 Z" id="angle-right---FontAwesome" fill="#A4B1C1"></path>
+                  </g>
+                </svg>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div class="mdl-grid">
+
+      <div class="post-highlighted">
+        <a href="/how-we-quit-our-jobs">
+          <div class="section-highlight mdl-card section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__play-btn mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone" style="background: url('/img/how-we-quit-our-jobs/how-we-quit-our-jobs.jpg') center/cover;"></header>
+            <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+              <div class="mdl-card__supporting-text">
+                <div class="mdl-color-text--grey-900">
+                  <h3 class="mdl-card__title-text">How we quit our jobs to travel the world 🌏</h3>
+                </div>
+                <div class="card-date">Jun 20, 2017</div>
+                <div class="mdl-color-text--grey-800">
+                  <p>2 geeks. 1 couple. The world. Here is our story on how we quit our jobs, why we quit and what we do for a living.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/beirut-to-europe">
+            <div class="mdl-card__title" style="background: url(/img/beirut-to-europe/beirut-airport.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">How to fly cheap from Beirut to Europe</h3>
+              </div>
+              <div class="card-date">Jun 10, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>Flying from Beirut to Europe can be much cheaper than you think.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/europe-to-sfo">
+            <div class="mdl-card__title" style="background: url(/img/europe-to-sfo/sfo.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">How to fly from Europe to San Francisco for less than 200$</h3>
+              </div>
+              <div class="card-date">May 09, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>Traveling from Europe to SFO usually means paying around 600$ or even more.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/amsterdam-recommendations">
+            <div class="mdl-card__title" style="background: url(/img/amsterdam-recommendations/amsterdam.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">Amsterdam recommendations for first timers</h3>
+              </div>
+              <div class="card-date">May 15, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>From the times I’ve been in Amsterdam, I managed to compile a list for first time visitors.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/packing-list">
+            <div class="mdl-card__title" style="background: url(/img/packing-list/packing.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">Pack smart and light: the packing list</h3>
+              </div>
+              <div class="card-date">Feb 22, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>Here is my ultimate packing list that I usually use for a 3-month trip.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/how-to-pack-light-travel-smart">
+            <div class="mdl-card__title" style="background: url(/img/pack-smart/pack-smart.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">How to pack light and travel smart</h3>
+              </div>
+              <div class="card-date">Feb 09, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>By packing light, you can travel for cheaper, save time and have a better lifestyle. Traveling light is traveling happy.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/5-apps-freelancer">
+            <div class="mdl-card__title" style="background: url(/img/5-apps-freelancer/freelancer.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">5 apps I can&#039;t live without as a freelancer</h3>
+              </div>
+              <div class="card-date">Jan 06, 2017</div>
+              <div class="mdl-color-text--grey-800">
+                <p>Life is too short for a 9 to 5 job, useless morning traffic jam, and stressful deadlines.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/what-i-learned-coding-bootcamp">
+            <div class="mdl-card__title" style="background: url(/img/what-i-learned-coding-bootcamp/lewagon.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">What I learned from teaching at a major coding bootcamp</h3>
+              </div>
+              <div class="card-date">Nov 23, 2016</div>
+              <div class="mdl-color-text--grey-800">
+                <p>I met students from all around the world, and while I was teaching, I was also learning.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+        <div class="mdl-card card-spacer mdl-shadow--2dp">
+          <a href="/flying-for-49-hours">
+            <div class="mdl-card__title" style="background: url(/img/flying-for-49-hours/working.jpg) center/cover;">
+            </div>
+            <div class="mdl-card__supporting-text">
+              <div class="mdl-color-text--grey-900">
+                <h3 class="mdl-card__title-text">What I learned from flying for 49 hours last month</h3>
+              </div>
+              <div class="card-date">Oct 29, 2016</div>
+              <div class="mdl-color-text--grey-800">
+                <p>Spending 49 hours in the air is a lot of time: the time flying, waiting at the gate...</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+          </div>
+  </div>
+</div>
+
+             <footer class="mdl-mega-footer">
+<div class="page-content">
+  <div class="mdl-grid">
+    <div class="mdl-cell--12-col">
+      <div class="mdl-mega-footer--middle-section">
+
+        <div class="mdl-mega-footer--drop-down-section">
+          <h4 class="mdl-mega-footer--heading">CONTACT</h4>
+          <ul class="mdl-mega-footer--link-list">
+            <li><a href="mailto:info@geeksandplaces.com">info@geeksandplaces.com</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer--drop-down-section">
+          <h4 class="mdl-mega-footer--heading">SOCIAL</h4>
+          <ul class="mdl-mega-footer--link-list">
+            <li>
+              <a href="https://instagram.com/geeksandplaces" target="_blank">
+                <span class="icon  icon--instagram">
+                <svg width="60px" height="60px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="instagram-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="Group" fill-rule="nonzero" fill="#FFFFFF">
+                        <path d="M24.825,29.796 C27.564,29.796 29.797,27.567 29.797,24.826 C29.797,23.744 29.443,22.745 28.857,21.929 C27.954,20.677 26.486,19.856 24.828,19.856 C23.169,19.856 21.702,20.676 20.797,21.928 C20.209,22.744 19.858,23.743 19.857,24.825 C19.854,27.566 22.085,29.796 24.825,29.796 Z" id="Shape"></path>
+                        <polygon id="Shape" points="35.678 18.746 35.678 14.58 35.678 13.96 35.055 13.962 30.891 13.975 30.907 18.762"></polygon>
+                        <path d="M24.826,0 C11.137,0 0,11.137 0,24.826 C0,38.514 11.137,49.652 24.826,49.652 C38.514,49.652 49.652,38.514 49.652,24.826 C49.652,11.137 38.516,0 24.826,0 Z M38.945,21.929 L38.945,33.489 C38.945,36.5 36.497,38.947 33.488,38.947 L16.164,38.947 C13.154,38.947 10.707,36.5 10.707,33.489 L10.707,21.929 L10.707,16.165 C10.707,13.155 13.154,10.708 16.164,10.708 L33.487,10.708 C36.497,10.708 38.945,13.155 38.945,16.165 L38.945,21.929 Z" id="Shape"></path>
+                        <path d="M32.549,24.826 C32.549,29.083 29.085,32.549 24.826,32.549 C20.567,32.549 17.104,29.083 17.104,24.826 C17.104,23.802 17.308,22.823 17.672,21.929 L13.457,21.929 L13.457,33.489 C13.457,34.983 14.67,36.193 16.163,36.193 L33.486,36.193 C34.977,36.193 36.192,34.983 36.192,33.489 L36.192,21.929 L31.975,21.929 C32.342,22.823 32.549,23.802 32.549,24.826 Z" id="Shape"></path>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+
+                <span class="username">geeksandplaces</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://facebook.com/geeksandplaces" target="_blank">
+                <span class="icon  icon--facebook">
+                  <svg width="60px" height="60px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="facebook-logo-button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <path d="M24.826,0 C11.137,0 0,11.137 0,24.826 C0,38.514 11.137,49.652 24.826,49.652 C38.514,49.652 49.652,38.514 49.652,24.826 C49.652,11.137 38.516,0 24.826,0 Z M31,25.7 L26.961,25.7 L26.961,40.096 L20.976,40.096 L20.976,25.7 L18.131,25.7 L18.131,20.612 L20.976,20.612 L20.976,17.321 C20.976,14.964 22.096,11.281 27.016,11.281 L31.451,11.298 L31.451,16.237 L28.232,16.237 C27.708,16.237 26.963,16.499 26.963,17.623 L26.963,20.613 L31.523,20.613 L31,25.7 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                  </svg>
+                </span>
+
+                <span class="username">geeksandplaces</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer--drop-down-section">
+          <h4 class="mdl-mega-footer--heading">ABOUT</h4>
+          <ul class="mdl-mega-footer--link-list">
+            <li>We're a couple of digital nomads passionate about travel &amp; tech.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<div class="mdl-mega-footer--bottom-section">
+  © 2017 Geeks &amp; Places. Made with <b>❤</b> in Beirut.
+</div>
+          </div>
+
+          <div id="subscribe-overlay" class="overlay">
+    <div id="subscribe-close" class="close">
+        <svg fill="#a4b1c1" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </div>
+</div>
+<div id="subscribe-modal">
+    <div class="layout">
+        <form id="subscribe-form">
+            <div>
+                <div id="subscribe-pre">
+                    <h4 class="mdl-color-text--grey-900">Looking for travel tips and inspiration?</h4>
+                    <p class="mdl-color-text--grey-800">Subscribe and get updates right in your inbox.</p>
+                </div>
+
+                <div id="subscribe-post">
+                    <h4 class="mdl-color-text--grey-900">Yay, subscribed.</h4>
+                    <p class="mdl-color-text--grey-800">Thanks for subscribing, you rock!</p>
+                </div>
+
+                <div id="subscribe-emailContainer">
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <input id="subscribe-email" class="mdl-textfield__input form-control" type="email" name="fields[email]" placeholder="Your email" value="" autocomplete="email"
+                        x-autocompletetype="email" spellcheck="false" autocapitalize="off" autocorrect="off">
+                    </div>
+
+                    <button type="submit" id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Subscribe now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+          <script async defer src="/js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97094680-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>
